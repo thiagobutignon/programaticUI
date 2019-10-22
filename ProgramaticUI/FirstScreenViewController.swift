@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstScreenViewController.swift
 //  ProgramaticUI
 //
 //  Created by Thiago B Claramunt on 21/10/19.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
+    
 
 
 }
-
