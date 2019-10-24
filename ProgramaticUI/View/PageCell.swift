@@ -51,6 +51,7 @@ class PageCell: UICollectionViewCell {
     private func setupLayout() {
         let topImageContainerView = UIView()
         addSubview(topImageContainerView)
+        
         topImageContainerView.translatesAutoresizingMaskIntoConstraints = false
         topImageContainerView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         
@@ -65,10 +66,9 @@ class PageCell: UICollectionViewCell {
         cellImageView.heightAnchor.constraint(equalTo: topImageContainerView.heightAnchor, multiplier: 0.5).isActive = true
         
         addSubview(descriptionTextView)
-        descriptionTextView.topAnchor.constraint(equalTo: topImageContainerView.bottomAnchor).isActive = true
-        descriptionTextView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 24).isActive = true
-        descriptionTextView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24).isActive = true
-        descriptionTextView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
+        
+        descriptionTextView.anchor(top: topImageContainerView.bottomAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor, padding: .init(top: 0, left: 24, bottom: 0, right: 24))
+        
     }
 
     

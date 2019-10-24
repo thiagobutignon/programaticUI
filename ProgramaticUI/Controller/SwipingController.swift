@@ -77,10 +77,5 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
             
             ])
     }
-    
 
-
-    
-   
-    
 }
