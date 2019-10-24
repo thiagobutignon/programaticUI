@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8306673F2360FE1F00CF855F /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306673E2360FE1F00CF855F /* SwipingController.swift */; };
+		830667412361026800CF855F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830667402361026800CF855F /* PageCell.swift */; };
+		8306674323610FEA00CF855F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306674223610FEA00CF855F /* Page.swift */; };
+		8306674A23612D3700CF855F /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306674923612D3700CF855F /* SwipingController+Extension.swift */; };
+		8306674C23612DAB00CF855F /* SwipingController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306674B23612DAB00CF855F /* SwipingController+CollectionView.swift */; };
+		8306674E23612E2100CF855F /* SwipingController+CollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306674D23612E2100CF855F /* SwipingController+CollectionViewDelegateFlowLayout.swift */; };
+		8306675023612E6800CF855F /* SwipingController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306674F23612E6800CF855F /* SwipingController+Actions.swift */; };
 		83A5C589235E856600FC5F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C588235E856600FC5F80 /* AppDelegate.swift */; };
 		83A5C591235E856600FC5F80 /* ProgramaticUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C58F235E856600FC5F80 /* ProgramaticUI.xcdatamodeld */; };
 		83A5C593235E856700FC5F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5C592235E856700FC5F80 /* Assets.xcassets */; };
 		83A5C596235E856700FC5F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A5C594235E856700FC5F80 /* LaunchScreen.storyboard */; };
 		83A5C5A1235E856700FC5F80 /* ProgramaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C5A0235E856700FC5F80 /* ProgramaticUITests.swift */; };
 		83A5C5AC235E856700FC5F80 /* ProgramaticUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C5AB235E856700FC5F80 /* ProgramaticUIUITests.swift */; };
-		83A5C5BA235E862800FC5F80 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C5B9235E862800FC5F80 /* FirstScreenViewController.swift */; };
-		83A5C5BC235E906B00FC5F80 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C5BB235E906B00FC5F80 /* SecondScreenViewController.swift */; };
+		83A5C5BA235E862800FC5F80 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5C5B9235E862800FC5F80 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8306673E2360FE1F00CF855F /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		830667402361026800CF855F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		8306674223610FEA00CF855F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		8306674923612D3700CF855F /* SwipingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Extension.swift"; sourceTree = "<group>"; };
+		8306674B23612DAB00CF855F /* SwipingController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+CollectionView.swift"; sourceTree = "<group>"; };
+		8306674D23612E2100CF855F /* SwipingController+CollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+CollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		8306674F23612E6800CF855F /* SwipingController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Actions.swift"; sourceTree = "<group>"; };
 		83A5C585235E856600FC5F80 /* ProgramaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A5C588235E856600FC5F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A5C590235E856600FC5F80 /* ProgramaticUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgramaticUI.xcdatamodel; sourceTree = "<group>"; };
@@ -47,8 +60,7 @@
 		83A5C5A7235E856700FC5F80 /* ProgramaticUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgramaticUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A5C5AB235E856700FC5F80 /* ProgramaticUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticUIUITests.swift; sourceTree = "<group>"; };
 		83A5C5AD235E856700FC5F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A5C5B9235E862800FC5F80 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
-		83A5C5BB235E906B00FC5F80 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		83A5C5B9235E862800FC5F80 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830667442361257B00CF855F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8306674223610FEA00CF855F /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		830667452361258700CF855F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				830667402361026800CF855F /* PageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		830667462361259700CF855F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8306673E2360FE1F00CF855F /* SwipingController.swift */,
+				8306674F23612E6800CF855F /* SwipingController+Actions.swift */,
+				8306674B23612DAB00CF855F /* SwipingController+CollectionView.swift */,
+				8306674D23612E2100CF855F /* SwipingController+CollectionViewDelegateFlowLayout.swift */,
+				8306674923612D3700CF855F /* SwipingController+Extension.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8306674723612AE100CF855F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83A5C5B9235E862800FC5F80 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8306674823612AE800CF855F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83A5C592235E856700FC5F80 /* Assets.xcassets */,
+				83A5C594235E856700FC5F80 /* LaunchScreen.storyboard */,
+				83A5C597235E856700FC5F80 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		83A5C57C235E856600FC5F80 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				83A5C588235E856600FC5F80 /* AppDelegate.swift */,
-				83A5C5B9235E862800FC5F80 /* FirstScreenViewController.swift */,
-				83A5C5BB235E906B00FC5F80 /* SecondScreenViewController.swift */,
-				83A5C592235E856700FC5F80 /* Assets.xcassets */,
-				83A5C594235E856700FC5F80 /* LaunchScreen.storyboard */,
-				83A5C597235E856700FC5F80 /* Info.plist */,
+				8306674823612AE800CF855F /* Resources */,
+				8306674723612AE100CF855F /* Extensions */,
+				830667462361259700CF855F /* Controller */,
+				830667452361258700CF855F /* View */,
+				830667442361257B00CF855F /* Model */,
 				83A5C58F235E856600FC5F80 /* ProgramaticUI.xcdatamodeld */,
 			);
 			path = ProgramaticUI;
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A5C5BC235E906B00FC5F80 /* SecondScreenViewController.swift in Sources */,
+				8306674C23612DAB00CF855F /* SwipingController+CollectionView.swift in Sources */,
 				83A5C591235E856600FC5F80 /* ProgramaticUI.xcdatamodeld in Sources */,
-				83A5C5BA235E862800FC5F80 /* FirstScreenViewController.swift in Sources */,
+				830667412361026800CF855F /* PageCell.swift in Sources */,
+				8306674A23612D3700CF855F /* SwipingController+Extension.swift in Sources */,
+				83A5C5BA235E862800FC5F80 /* UIColor+Extensions.swift in Sources */,
+				8306675023612E6800CF855F /* SwipingController+Actions.swift in Sources */,
+				8306674323610FEA00CF855F /* Page.swift in Sources */,
+				8306674E23612E2100CF855F /* SwipingController+CollectionViewDelegateFlowLayout.swift in Sources */,
+				8306673F2360FE1F00CF855F /* SwipingController.swift in Sources */,
 				83A5C589235E856600FC5F80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +492,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95Y9ZH46LB;
-				INFOPLIST_FILE = ProgramaticUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgramaticUI/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,9 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95Y9ZH46LB;
-				INFOPLIST_FILE = ProgramaticUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgramaticUI/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
